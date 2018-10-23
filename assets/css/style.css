@@ -18,7 +18,15 @@ body{
 .navbar-custom ul li a{
 	font-family: 'Roboto Condensed', sans-serif;
 }
-
+.navbar-custom{
+	background-color: rgba(255, 249, 229,0.0) !important;
+}
+.navbar-custom.scrolled{
+	background-color: #1a1d23 !important;
+}
+.nav-link{
+	color:#ded7d7 !important;
+}
 /*sections*/
 .landing-page{
 	display: flex;
@@ -68,7 +76,7 @@ body{
 	text-transform: uppercase;
 	letter-spacing: 1px;
 	font-size: 24px;
-	color: #ffe51b;
+	color: #ffe51b !important;
 	background:transparent;
 	border: solid 3px rgba(255, 255, 255, 0.5);
 	font-family: 'Roboto Condensed', sans-serif;
@@ -170,12 +178,14 @@ body{
 	height: 100vh;
 }
 .bottom-landing-page{
-	height: 100vh;
-	background: #1a1d23;
+	height: 100%;
+	margin: auto;
+	background: rgba(26, 29, 35,0.9);
+	padding: 130px 80px;
 }
 .about-page{
 	padding: 0;
-	height: 100vh;
+	height: 100%;
 }
 .partners-page{
 	height: 30vh;
@@ -191,14 +201,14 @@ body{
 
 /*landing page*/
 .landing-page .btnLink{
-	text-align: left;
-	font-size: 30px;
+/*	text-align: left;
+*/	font-size: 30px;
 	font-family: 'Roboto Condensed', sans-serif;
 }
 
 /*about*/
 
-.about-page .block{
+.about-page>.block{
 	margin-bottom: 0;
 }
 .employee-name{
@@ -230,4 +240,19 @@ body{
 	background: #fff6d1;
 	padding: 40px;
 	height: 550px;
+}
+.navbar-brand{
+	margin-left: 80px;
+}
+.navbar-nav{
+	margin-right: 80px;
+}
+
+.img-avatar{
+	width: 225px;
+	max-width:100%;
+}
+
+.item-center{
+	padding-top: 40px;
 }

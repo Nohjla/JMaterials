@@ -5,32 +5,34 @@
 	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
 	<link rel="icon" type="text/css" href="assets/images/jmc_favicon.png">
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style-aljhon.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style-lei.css">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
 </head>
 <body>
 	<nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light navbar-custom">
-	  <a class="navbar-brand navbar-logo" href="#"><img src="assets/images/jmc_logo.png"></a>
+	  <a class="navbar-brand navbar-logo" href="#"><img src="assets/images/jmc_logo_white.png"></a>
 	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
 	    <span class="navbar-toggler-icon"></span>
 	  </button>
 	  <div class="collapse navbar-collapse" id="navbarText">
 	    <ul class="navbar-nav ml-auto">
 	      <li class="nav-item active">
-	        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+	        <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
 	      </li>
-	      <li class="nav-item">
+	      <li class="nav-item active">
 	        <a class="nav-link" href="#">About</a>
 	      </li>
-	      <li class="nav-item">
+	      <li class="nav-item active">
 	        <a class="nav-link" href="#">Partners</a>
 	      </li>
-	      <li class="nav-item">
+	      <li class="nav-item active">
 	        <a class="nav-link" href="#">Product</a>
 	      </li>
-	      <li class="nav-item">
+	      <li class="nav-item active">
 	        <a class="nav-link" href="#">Blog</a>
 	      </li>
-	      <li class="nav-item">
+	      <li class="nav-item active">
 	        <a class="nav-link" href="#">Contacts</a>
 	      </li>
 	    </ul>
@@ -40,7 +42,7 @@
 	<div class="container-fluid landing-page parent-class">
 		<div class="container">
 			<h3 class="banner-text">Quality service that <strong>exceeds</strong> your needs.</h3>
-			<div class="btn-holder"><button class="btn btn-form btn-banner">Learn More</button></div>
+			<div class="btn-holder"><a class="btn btn-form btn-banner" href="#home">Learn More</a></div>
 			<div class="btn-holder">
 				<a href="#" class="btn btnLink"><i class="fas fa-long-arrow-alt-right"></i> Partners Products</a>
 				<a href="#" class="btn btnLink"><i class="fas fa-long-arrow-alt-right"></i> Brochures</a>
@@ -48,10 +50,11 @@
 		</div>
 	</div>
 
-	<div class="container-fluid bottom-landing-page">
-		<div class="container">
-			
-		</div>
+	<div class="container-fluid bottom-landing-page" id="home">
+			<h1 id="h-home">Why choose us</h1>
+			<p class="objectives">
+				We are mainly a marketing and sales support team. Our mission is to be a company with a reputation for eligibility, quality and integrity. We envision to be the leading company engaged in delivering quality service and outstanding value to both client and employee.
+			</p>
 	</div>
 	<div class="container-fluid about-page">
 		<div class="block" style="margin:80px;">
@@ -69,62 +72,125 @@
 		<div class="block team-holder">
 			<div class="container">
 				<h2 class="page-title">Our Team</h2>
+				<div class="row block top-people">
+					<div class="col-md-3"><img src="assets/images/employees/Nakagane.png" class="img-responsive img-avatar"></div>
+					<div class="col-md-9 item-center">
+						<h4 class="employee-name">Ryosuke Nakagane</h4>
+						<label class="employee-title">Director</label>
+						<p class="employee-desc">Mr. Nakagane is a director and a stock holder of Jmaterials Corp.He has business experience in Philippine for more than 10 years. Currently, he also serves as the President of Tokyo Grand Renovation (TGR) which isan affiliate company of Jmaterials Corp.</p>
+					</div>
+				</div>				
 				<div class="row block">
-					<div class="col-md-6">
+					<div class="col-md-3 top-people"><img src="assets/images/employees/Tamura.png" class="img-responsive img-avatar"></div>
+					<div class="col-md-9 item-center">
+						<h4 class="employee-name">Naoki Tamura</h4>
+						<label class="employee-title">General Manager</label>
+						<p class="employee-desc">Mr. Tamura has been in the sales industry for more than 15 years locally and internationally making him well-suited to be the General Manager of the company. He believes that in order to succeed a person should always be gentle and smart with his or her decisions. He also believes that smile can do magic. Mr. Tamura plays ice hockey and enjoys travelling. Both ice hockey and travelling are his stress reliever and relaxation. </p>
+					</div>
+				</div>
+
+				<div class="row block">
+					<div class="col-md-6 col-sm-6">
 						<div class="row">
-							<div class="col-md-3"><img src="assets/images/ìmg-about-02.png" class="img-responsive"></div>
+							<div class="col-md-3"><img src="assets/images/employees/Zapata.png" class="img-responsive"></div>
 							<div class="col-md-9">
 								<h4 class="employee-name">Jeffrey John Zapata</h4>
-								<label class="employee-title">Staff</label>
-								<p class="employee-desc">Jay brings with him more than 15 years experience in the field of selling and trading with clientele both local and international. His expertise has helped the company in its growth and continuous improvement. Hardworking as he is, he makes sure to spend quality time with his family as well as time for himself… whether it be up in the mountains or even underwater.</p>
+								<label class="employee-title">Customer Service Manager</label>
+								<p class="employee-desc">Jay brings with him more than 20 years experience in the fields of selling and trading with clientele both local and international. His expertise and vast experience  has helped position Jmaterials Corporation as one of the contenders in their field.  He is also a good example to his colleagues and is seen as a mentor and an adviser.  But more than his dedication and resilience at work, Jay is a family man and, he makes sure to spend quality time with his family as well as time for himself.</p>
 							</div>
 						</div>
 					</div>
-					<div class="col-md-6">
+					<div class="col-md-6 col-sm-6">
 						<div class="row">
-							<div class="col-md-3"><img src="assets/images/ìmg-about-03.png" class="img-responsive"></div>
+							<div class="col-md-3"><img src="assets/images/employees/Ramos.png" class="img-responsive"></div>
 							<div class="col-md-9">
-								<h4 class="employee-name">Maricel Silvano</h4>
-								<label class="employee-title">Staff</label>
-								<p class="employee-desc">Been with the company for more than three years now. My previous works involved interacting with people that help me a lot handling sales and customer relations…I like adventures, a nature lover; specifically love the mountains and the beaches. Whenever I have time and budget, I would be travelling out of town, going to places I've never been before. My pastime is always reading.</p>
+								<h4 class="employee-name">Shirley Inductivo Ramos</h4>
+								<label class="employee-title">Accounting Manager</label>
+								<p class="employee-desc">Shirley has more than 10 years of experience in providing professional accounting service to private businesses. She has been with Jmaterials since 2013 and oversees the day-to-day operations of company’s accounting department.She is responsible also in the preparation of all financial reports and preparation of tax returns and regulatory filings. She believes that the backbone of success is “hard work, determination, good planning, and perseverance. “ She also admires women who are mothers  who balance family and work.</p>
 							</div>
 						</div>
 					</div>
-				</div>
-				<!-- <div class="row block">
-					<div class="col-md-6">
-						<div class="row">
-							<div class="col-md-3"><img src="assets/images/ìmg-about-06.png" class="img-responsive"></div>
-							<div class="col-md-9">
-								<h4 class="employee-name">Shirley Inductivo</h4>
-								<label class="employee-title">Staff</label>
-								<p class="employee-desc">Philosophy in life: “Winners never quit and quitters never win.” Accountant with more than 5 years experience in accurate financial reporting that facilitates better business decisions.</p>
-							</div>
-						</div>
-					</div>	
-					<div class="col-md-6">
-						<div class="row">
-							<div class="col-md-3"><img src="assets/images/ìmg-about-04.png" class="img-responsive"></div>
-							<div class="col-md-9">
-								<h4 class="employee-name">Sheryl Dauz</h4>
-								<label class="employee-title">Staff</label>
-								<p class="employee-desc">I am currently eager to pursue a career in Sales to help me to grow and improve my ability to deal with different people. I see myself as someone who is very persistent and will always get back on her feet. My goal is to become the best that I can be through all my trials and tribulations.</p>
-							</div>
-						</div>
-					</div>							
 				</div>
 				<div class="row block">
-					<div class="col-md-6">
+					<div class="col-md-6 col-sm-6">
 						<div class="row">
-							<div class="col-md-3"><img src="assets/images/ìmg-about-05.png" class="img-responsive"></div>
+							<div class="col-md-3"><img src="assets/images/employees/Yacat.png" class="img-responsive"></div>
+							<div class="col-md-9">
+								<h4 class="employee-name">Sheryl Dauz-Yacat</h4>
+								<label class="employee-title">Accounting/Customer Service Representative</label>
+								<p class="employee-desc">Been with the company for almost six years now, handling Customer Service and Accounting. I see myself as someone who is very persistent and will always get back on her feet. My goal is to become the best that I can be through all my trials and tribulations. My favorite hobby is doing outdoor activities with my family.</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-6 col-sm-6">
+						<div class="row">
+							<div class="col-md-3"><img src="assets/images/employees/Boncolmo.png" class="img-responsive"></div>
 							<div class="col-md-9">
 								<h4 class="employee-name">Gretchen Boncolmo</h4>
-								<label class="employee-title">Staff</label>
+								<label class="employee-title">Sales Executive</label>
 								<p class="employee-desc">A woman very much in love with life. She’s working for almost 3 years with different line of work. She is adventurous and has a lot of curiosity in life. She doesn’t regret the things she done, she regret the things she didn’t do when she had the chance. She is an optimistic person with great sense of responsibility. She strongly believes that the pain you feel today is the strength you feel tomorrow. For every challenge encountered there is opportunity for growth. For her, Life has two rules: #1 Never quit #2 Always remember rule # 1.</p>
 							</div>
 						</div>
 					</div>
-				</div> -->
+				</div>
+				<div class="row block">
+					<div class="col-md-6 col-sm-6">
+						<div class="row">
+							<div class="col-md-3"><img src="assets/images/employees/Locaberte.png" class="img-responsive"></div>
+							<div class="col-md-9">
+								<h4 class="employee-name">Rico Locaberte</h4>
+								<label class="employee-title">Sales/Service Engineer</label>
+								<p class="employee-desc">Rico is a licensed Mechanical Engineer who developed his specialization on HVAC equipment in the company. He is a young engineer continuously seeking a challenging work to bring to the organization efficiency, enthusiasm, dedication, responsibility and excellent work ethics combined with a desire to utilize his professional skills obtained through his education, trainings and work experiences.</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-6 col-sm-6">
+						<div class="row">
+							<div class="col-md-3"><img src="assets/images/employees/Lequigan.png" class="img-responsive"></div>
+							<div class="col-md-9">
+								<h4 class="employee-name">Pejie Lequigan</h4>
+								<label class="employee-title">Customer Service Associate</label>
+								<p class="employee-desc">
+									A Licensed Professional Teacher with a 4 years experience in the field of Customer Service. She is willing to work in a challenging environment, contributing enthusiasm, responsibility, and good work ethic, combined with a desire to utilize my passion in providing Customers satisfaction. I like adventures, specifically mountain climbing and I would love to volunteer and share my knowledge to children who are in need. As the Bible says’ And do not forget to do good and to share with others, for with such sacrifices God is pleased; Hebrews 13:16.
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row block">
+					<div class="col-md-6 col-sm-6">
+						<div class="row">
+							<div class="col-md-3"><img src="assets/images/employees/Placer.png" class="img-responsive"></div>
+							<div class="col-md-9">
+								<h4 class="employee-name">Joseph Cris Placer</h4>
+								<label class="employee-title">HR / Admin</label>
+								<p class="employee-desc">I’m Jc from Jmaterials Corporation. I’m handling part of HR / admin to hardworking person and funny person. I’m respected among other and provide an atmosphere of mutual growth and benefits.I love Photographer, Travel, Event Organizer, Trainer and Serve scouting movement. I’m playing a Volley player, Coffee lover, Eating Ramen, and etc.</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-6 col-sm-6">
+						<div class="row">
+							<div class="col-md-3"><img src="assets/images/employees/Ramos.png" class="img-responsive"></div>
+							<div class="col-md-9">
+								<h4 class="employee-name">Joweena Juliana</h4>
+								<label class="employee-title">Accounting Associate</label>
+								<p class="employee-desc">"Patience is a virtue", a state of moral excellence that leads her to continue on what she have started. An adventurous individual that accepts challenging chores which may contribute her present job a much better workplace.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row block">
+					<div class="col-md-6 col-sm-6">
+						<div class="row">
+							<div class="col-md-3"><img src="assets/images/employees/Nacion.png" class="img-responsive"></div>
+							<div class="col-md-9">
+								<h4 class="employee-name">Grace Nacion</h4>
+								<label class="employee-title">Accounting Staff</label>
+								<p class="employee-desc">I’m just a newbie in this Company and still working on adjustments with the new tasks and responsibilities in Accounting, since my last work was in the field of Auditing, which strives me to learn more…I like adventures and taking photos of fascinating places.</p>
+							</div>
+						</div>
+					</div>
+				</div>
 			</div>
 		</div>
 	</div>
@@ -200,5 +266,6 @@
 	<script src="assets/js/jquery-3.3.1.min.js"></script>
 	<script src="assets/js/popper.min.js"></script>
 	<script src="assets/js/bootstrap.min.js"></script>
+	<script src="assets/js/myjs.js"></script>
 </body>
 </html>
