@@ -25,7 +25,7 @@ body{
 	background-color: #1a1d23 !important;
 }
 .nav-link{
-	color:#ded7d7 !important;
+	color:#ffe51b !important;
 }
 /*sections*/
 .landing-page{
@@ -141,11 +141,12 @@ body{
 .list-footer-links > li{
 	text-align: left;
 }
-.list-footer-links > li > a{
+.list-footer-links > li > a,.list-footer-links > li > p{
 	font-family: 'Roboto Condensed', sans-serif;
 	line-height: 1.5;
 	color:#eaeaea;
 }
+
 .image-logo-footer{
 	display:block;
 	margin: 20px auto;
@@ -188,16 +189,23 @@ body{
 	height: 100%;
 }
 .partners-page{
-	height: 30vh;
+	height: 100%;
 	background: rgba(156, 79, 79, 0.3);
 	padding: 40px;
 }
 .product-page{
-	height: 100vh;
-	background: #f8f9fa;
-	padding: 40px;
+	height: 100%;
+	background: rgba(255, 255, 255);
+	padding: 120px;
 }
 
+.contact-page{
+	margin-top: 40px;
+	margin-bottom: 40px;
+	height: 100%;
+	background: rgba(255, 255, 255);
+	padding: 50px;
+}
 
 /*landing page*/
 .landing-page .btnLink{

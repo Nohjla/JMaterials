@@ -1,3 +1,10 @@
+.text-center{
+	text-align:center;
+}
+
+.product-page{
+	margin-top: 150px;
+}
 .objectives{
 	font-size: 27px;
 	color: white;
@@ -10,4 +17,38 @@
 	font-size: 45px;
 	color: white;
 	font-family: 'Roboto Condensed', sans-serif;
+}
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  background-color: rgba(255,255,255,0.9);
+  overflow: hidden;
+  width: 100%;
+  height:0;
+  transition: .5s ease;
+}
+
+.sample:hover .overlay {
+  bottom: 0;
+  height: 100%;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
 }
