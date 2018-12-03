@@ -1,7 +1,105 @@
 
 .team-holder{
-	height: auto;
+	height: 100vh;
 }
 .top-people{
 	margin-bottom: 30px;
+}
+
+.nav-products{
+	
+border-bottom: solid 1px #000;
+	
+margin-bottom: 30px;
+}
+
+.nav-products .nav-link.active, .nav-products .show>.nav-link{
+	background: transparent;
+	color: #2f3b4a!important;
+	border-bottom: solid 3px #000;
+	border-radius: 0;
+	font-weight: 600;
+}
+.nav-products .nav-link{
+	color:#000!important;
+	height:60px;
+}
+
+.btn-yellow{
+	background: #ffe51b;
+	color: #2f3b4a;
+}
+
+.productItem-holder{
+	margin-bottom: 15px;
+}
+
+.product-title{
+	margin: 15px 0;
+}
+
+.page-title{
+	font-weight: normal;
+	margin-bottom: 0;
+}
+
+.about-page{
+	margin: 60px 80px!important;
+}
+
+.member{
+	display: block;
+    padding: 22px 0;
+}
+
+.top-member{
+	margin-bottom: 30px;
+}
+
+.top-member img{
+	display: block;
+	margin: 0 auto 15px auto;
+}
+
+.top-member .employee-name,
+.top-member .employee-title, 
+.top-member .employee-desc{
+	text-align: center!important;
+}
+
+.employee-desc{
+	text-align: justify!important;
+	font-style: normal;
+	line-height: 1.5;
+}
+
+.employee-name,.employee-title{
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+.employee-title{
+	font-weight: normal;
+}
+.img-avatar{
+	display: block;
+	margin: 0 auto;
+}
+.owl-nav{
+	display: none;
+}
+.owl-prev span,.owl-next span{
+	font-size:44px;
+}
+@media screen and (max-width: 991px){
+	.product-page,
+	.team-holder,
+	about-page{
+		height: auto;
+	}
+
+	.member .employee-name,
+	.member .employee-title, 
+	.member .employee-desc{
+		text-align: center!important;
+	}
 }

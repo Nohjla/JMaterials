@@ -2,11 +2,12 @@
 <html>
 <head>
 	<meta charset="utf-8">
-    <!-- <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<title>J Materials</title>
 	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
 	<link rel="icon" type="text/css" href="assets/images/jmc_favicon.png">
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/animate.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/style-aljhon.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/style-lei.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/owl.carousel.min.css">
@@ -15,202 +16,791 @@
 
 </head>
 <body>
-	<nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light navbar-custom">
-	  <a class="navbar-brand navbar-logo" href="#"><img src="assets/images/jmc_logo_yellow.png"></a>
-	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-	    <span class="navbar-toggler-icon"></span>
-	  </button>
-	  <div class="collapse navbar-collapse" id="navbarText">
-	    <ul class="navbar-nav ml-auto">
-	      <li class="nav-item active">
-	        <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
-	      </li>
-	      <li class="nav-item active">
-	        <a class="nav-link" href="#">Product</a>
-	      </li>
-	      <li class="nav-item active">
-	        <a class="nav-link" href="#">About</a>
-	      </li>
-	      <li class="nav-item active">
-	        <a class="nav-link" href="#">Partners</a>
-	      </li>
-	      <li class="nav-item active">
-	        <a class="nav-link" href="#">Contact Us</a>
-	      </li>
-	    </ul>
-	  </div>
+	<nav id="navy_scroll" class="navbar fixed-top navbar-expand-lg navbar-light bg-light navbar-custom">
+		<a class="navbar-brand navbar-logo" href="#"><img src="assets/images/jmc_logo_yellow.png"></a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarText">
+			<ul class="navbar-nav ml-auto">
+				<li class="nav-item">
+					<a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#product">Product</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#about">About</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#partners">Partners</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#contact">Contact Us</a>
+				</li>
+			</ul>
+		</div>
 	</nav>
-
-	<div class="container-fluid landing-page parent-class">
-		<div class="container">
-			<h3 class="banner-text">Best <strong>value</strong> in Phillipines</h3>
-			<div class="btn-holder"><a class="btn btn-form btn-banner" href="#home">Learn More</a></div>
-			<div class="btn-holder">
-				<a href="#" class="btn btnLink"><i class="fas fa-long-arrow-alt-right"></i> Our Products</a>
-				<a href="#" class="btn btnLink"><i class="fas fa-long-arrow-alt-right"></i> Brochures</a>
-				</div>		
-		</div>
-	</div>
-
-	<div class="container-fluid bottom-landing-page" id="home">
-			<h1 id="h-home">Why choose us</h1>
-			<p class="objectives">
-				We are mainly a marketing and sales support team. Our mission is to be a company with a reputation for eligibility, quality and integrity. We envision to be the leading company engaged in delivering quality service and outstanding value to both client and employee.
-			</p>
-	</div>
-
-	<div class="container-fluid product-page">
-	<h2 class="mb-5"><strong>Our Products</strong></h2>
-		<div class="row mb-5">
-			<div class="col-md-1"></div>
-			<div class="col-md-2 col-sm-12">
-				<h5 class="text-center">Butterfly Valve(OKM)</h5>
-  				<div class="sample">
-				  <img src="assets/images/8.jpg" alt="Avatar" class="image">
-				  <div class="overlay">
-				    <div class="text"><a href="#">Read more</a></div>
-				  </div>
-				</div>	
-			</div>
-
-			<div class="col-md-1"></div>
-			<div class="col-md-2">
-				<div class="sample">
-				  <h5 class="text-center">Flexible Joint(Zenshin)</h5>
-				  <img src="assets/images/8.jpg" alt="Avatar" class="image">
-				  <div class="overlay">
-				    <div class="text"><a href="#">Read more</a></div>
-				  </div>
-				</div>
-			</div>
-
-			<div class="col-md-1"></div>
-			<div class="col-md-2">
-				<div class="sample">
-				  <h5 class="text-center">Heat Exchanger(Hisaka)</h5>
-				  <img src="assets/images/8.jpg" alt="Avatar" class="image">
-				  <div class="overlay">
-				    <div class="text"><a href="#">Read more</a></div>
-				  </div>
-				</div>
-			</div>
-
-			<div class="col-md-1"></div>
-			<div class="col-md-2">
-				<div class="sample">
-                  <h5 class="text-center">Nihon Spindle Cooling Tower</h5>
-				  <img src="assets/images/8.jpg" alt="Avatar" class="image">
-				  <div class="overlay">
-				    <div class="text"><a href="#">Read more</a></div>
-				  </div>
+	<div data-spy="scroll" data-target="#navy_scroll" data-offset="50" class="scrollSpy-holder">
+		<div class="landing-page parent-class" id="home">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-7 col-md-12 col-sm-12">
+						<h3 class="banner-text">Best <strong>value</strong> in Phillipines</h3>
+						<div class="btn-holder">
+							<a href="#" class="btn btnLink"><i class="fas fa-long-arrow-alt-right"></i> Our Products</a>
+							<a href="#" class="btn btnLink"><i class="fas fa-long-arrow-alt-right"></i> Brochures</a>
+						</div>		
+						<div class="btn-holder"><a class="btn btn-form btn-banner" href="#home">Learn More</a></div>
+					</div>
+					<div class="col-lg-5 col-md-12 col-sm-12"></div>
+					<!-- <div class="col-md-5 featured-products">
+						<h3 class="title">Featured Products</h3>
+						<div class="img-box-holder"></div>
+					</div> -->				
 				</div>
 			</div>
 		</div>
-
-		<div class="row">
-			<div class="col-md-1"></div>
-			<div class="col-md-2">
-				<div class="sample">
-				  <h5 class="text-center">Pressure Gauges(Weiss)</h5>
-				  <img src="assets/images/8.jpg" alt="Avatar" class="image">
-				  <div class="overlay">
-				    <div class="text"><a href="#">Read more</a></div>
-				  </div>
+		<div class="product-page" id="product">
+			<div class="container">
+				<h3 class="page-title">Our <strong>Products</strong></h3>
+				<div class="row">
+					<div class="col-md-12">
+						<ul class="nav nav-pills nav-products">
+							<li class="nav-item">
+								<a class="nav-link active" id="pills-aproduct-tab" data-toggle="pill" href="#pills-aproduct" role="tab" aria-controls="pills-aproduct" aria-selected="true">All Products</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" id="pills-valves-tab" data-toggle="pill" href="#pills-valves" role="tab" aria-controls="pills-valves" aria-selected="false">Valves</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" id="pills-joints-tab" data-toggle="pill" href="#pills-joints" role="tab" aria-controls="pills-joints" aria-selected="false">Joints</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" id="pills-exchanger-tab" data-toggle="pill" href="#pills-exchanger" role="tab" aria-controls="pills-exchanger" aria-selected="false">Heat Exchanger</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" id="pills-cooling-tab" data-toggle="pill" href="#pills-cooling" role="tab" aria-controls="pills-cooling" aria-selected="false">Cooling Tower</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" id="pills-gauges-tab" data-toggle="pill" href="#pills-gauges" role="tab" aria-controls="pills-gauges" aria-selected="false">Pressure Gauges</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" id="pills-pumps-tab" data-toggle="pill" href="#pills-pumps" role="tab" aria-controls="pills-pumps" aria-selected="false">Pumps</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" id="pills-treatment-tab" data-toggle="pill" href="#pills-treatment" role="tab" aria-controls="pills-treatment" aria-selected="false">Water Treatment</a>
+							</li>
+						</ul>
+					</div>
 				</div>
-			</div>
 
-			<div class="col-md-1"></div>
-			<div class="col-md-2">
-				<div class="sample">
-				  <h5 class="text-center">Pumps(Ebara)</h5>
-				  <img src="assets/images/8.jpg" alt="Avatar" class="image">
-				  <div class="overlay">
-				    <div class="text"><a href="#">Read more</a></div>
-				  </div>
-				</div>
-			</div>
+				<div class="tab-content" id="pills-tabContent">
+					<div class="tab-pane fade show active" id="pills-aproduct" role="tabpanel" aria-labelledby="pills-aproduct-tab">
+						<div class="productItem-holder row">
+							<div class="col-lg-3 col-md-6">						
+								<div class="sample wow fadeInUp">
+									<img src="assets/images/8.jpg" alt="Avatar" class="img-thumbnail">
+									<h5 class="product-title">Butterfly Valve(OKM)</h5>
+									<div class="overlay">
+										<div class="text"><a href="#" class="btn btn-yellow">Read More</a></div>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-3 col-md-6">						
+								<div class="sample wow fadeInUp">
+									<img src="assets/images/8.jpg" alt="Avatar" class="img-thumbnail">
+									<h5 class="product-title">Butterfly Valve(OKM)</h5>
+									<div class="overlay">
+										<div class="text"><a href="#" class="btn btn-yellow">Read More</a></div>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-3 col-md-6">						
+								<div class="sample wow fadeInUp">
+									<img src="assets/images/8.jpg" alt="Avatar" class="img-thumbnail">
+									<h5 class="product-title">Butterfly Valve(OKM)</h5>
+									<div class="overlay">
+										<div class="text"><a href="#" class="btn btn-yellow">Read More</a></div>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-3 col-md-6">						
+								<div class="sample wow fadeInUp">
+									<img src="assets/images/8.jpg" alt="Avatar" class="img-thumbnail">
+									<h5 class="product-title">Butterfly Valve(OKM)</h5>
+									<div class="overlay">
+										<div class="text"><a href="#" class="btn btn-yellow">Read More</a></div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="productItem-holder row">
+							<div class="col-lg-3 col-md-6">						
+								<div class="sample wow fadeInUp">
+									<img src="assets/images/8.jpg" alt="Avatar" class="img-thumbnail">
+									<h5 class="product-title">Butterfly Valve(OKM)</h5>
+									<div class="overlay">
+										<div class="text"><a href="#" class="btn btn-yellow">Read More</a></div>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-3 col-md-6">						
+								<div class="sample wow fadeInUp">
+									<img src="assets/images/8.jpg" alt="Avatar" class="img-thumbnail">
+									<h5 class="product-title">Butterfly Valve(OKM)</h5>
+									<div class="overlay">
+										<div class="text"><a href="#" class="btn btn-yellow">Read More</a></div>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-3 col-md-6">						
+								<div class="sample wow fadeInUp">
+									<img src="assets/images/8.jpg" alt="Avatar" class="img-thumbnail">
+									<h5 class="product-title">Butterfly Valve(OKM)</h5>
+									<div class="overlay">
+										<div class="text"><a href="#" class="btn btn-yellow">Read More</a></div>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-3 col-md-6">						
+								<div class="sample wow fadeInUp">
+									<img src="assets/images/8.jpg" alt="Avatar" class="img-thumbnail">
+									<h5 class="product-title">Butterfly Valve(OKM)</h5>
+									<div class="overlay">
+										<div class="text"><a href="#" class="btn btn-yellow">Read More</a></div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div> <!-- end of aproduct pane -->
+					<div class="tab-pane fade" id="pills-valves" role="tabpanel" aria-labelledby="pills-valves-tab">
+						<div class="productItem-holder row">
+								<div class="col-lg-3 col-md-6">						
+									<div class="sample wow fadeInUp">
+										<img src="assets/images/8.jpg" alt="Avatar" class="img-thumbnail">
+										<h5 class="product-title">Butterfly Valve(OKM)</h5>
+										<div class="overlay">
+											<div class="text"><a href="#" class="btn btn-yellow">Read More</a></div>
+										</div>
+									</div>
+								</div>
+								<div class="col-lg-3 col-md-6">						
+									<div class="sample wow fadeInUp">
+										<img src="assets/images/8.jpg" alt="Avatar" class="img-thumbnail">
+										<h5 class="product-title">Butterfly Valve(OKM)</h5>
+										<div class="overlay">
+											<div class="text"><a href="#" class="btn btn-yellow">Read More</a></div>
+										</div>
+									</div>
+								</div>
+								<div class="col-lg-3 col-md-6">						
+									<div class="sample wow fadeInUp">
+										<img src="assets/images/8.jpg" alt="Avatar" class="img-thumbnail">
+										<h5 class="product-title">Butterfly Valve(OKM)</h5>
+										<div class="overlay">
+											<div class="text"><a href="#" class="btn btn-yellow">Read More</a></div>
+										</div>
+									</div>
+								</div>
+								<div class="col-lg-3 col-md-6">						
+									<div class="sample wow fadeInUp">
+										<img src="assets/images/8.jpg" alt="Avatar" class="img-thumbnail">
+										<h5 class="product-title">Butterfly Valve(OKM)</h5>
+										<div class="overlay">
+											<div class="text"><a href="#" class="btn btn-yellow">Read More</a></div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="productItem-holder row">
+								<div class="col-lg-3 col-md-6">						
+									<div class="sample wow fadeInUp">
+										<img src="assets/images/8.jpg" alt="Avatar" class="img-thumbnail">
+										<h5 class="product-title">Butterfly Valve(OKM)</h5>
+										<div class="overlay">
+											<div class="text"><a href="#" class="btn btn-yellow">Read More</a></div>
+										</div>
+									</div>
+								</div>
+								<div class="col-lg-3 col-md-6">						
+									<div class="sample wow fadeInUp">
+										<img src="assets/images/8.jpg" alt="Avatar" class="img-thumbnail">
+										<h5 class="product-title">Butterfly Valve(OKM)</h5>
+										<div class="overlay">
+											<div class="text"><a href="#" class="btn btn-yellow">Read More</a></div>
+										</div>
+									</div>
+								</div>
+								<div class="col-lg-3 col-md-6">						
+									<div class="sample wow fadeInUp">
+										<img src="assets/images/8.jpg" alt="Avatar" class="img-thumbnail">
+										<h5 class="product-title">Butterfly Valve(OKM)</h5>
+										<div class="overlay">
+											<div class="text"><a href="#" class="btn btn-yellow">Read More</a></div>
+										</div>
+									</div>
+								</div>
+								<div class="col-lg-3 col-md-6">						
+									<div class="sample wow fadeInUp">
+										<img src="assets/images/8.jpg" alt="Avatar" class="img-thumbnail">
+										<h5 class="product-title">Butterfly Valve(OKM)</h5>
+										<div class="overlay">
+											<div class="text"><a href="#" class="btn btn-yellow">Read More</a></div>
+										</div>
+									</div>
+								</div>
+							</div>
+					</div> <!-- end of valves pane -->
+					<div class="tab-pane fade" id="pills-joints" role="tabpanel" aria-labelledby="pills-joints-tab">
+						<div class="productItem-holder row">
+								<div class="col-lg-3 col-md-6">						
+									<div class="sample wow fadeInUp">
+										<img src="assets/images/8.jpg" alt="Avatar" class="img-thumbnail">
+										<h5 class="product-title">Butterfly Valve(OKM)</h5>
+										<div class="overlay">
+											<div class="text"><a href="#" class="btn btn-yellow">Read More</a></div>
+										</div>
+									</div>
+								</div>
+								<div class="col-lg-3 col-md-6">						
+									<div class="sample wow fadeInUp">
+										<img src="assets/images/8.jpg" alt="Avatar" class="img-thumbnail">
+										<h5 class="product-title">Butterfly Valve(OKM)</h5>
+										<div class="overlay">
+											<div class="text"><a href="#" class="btn btn-yellow">Read More</a></div>
+										</div>
+									</div>
+								</div>
+								<div class="col-lg-3 col-md-6">						
+									<div class="sample wow fadeInUp">
+										<img src="assets/images/8.jpg" alt="Avatar" class="img-thumbnail">
+										<h5 class="product-title">Butterfly Valve(OKM)</h5>
+										<div class="overlay">
+											<div class="text"><a href="#" class="btn btn-yellow">Read More</a></div>
+										</div>
+									</div>
+								</div>
+								<div class="col-lg-3 col-md-6">						
+									<div class="sample wow fadeInUp">
+										<img src="assets/images/8.jpg" alt="Avatar" class="img-thumbnail">
+										<h5 class="product-title">Butterfly Valve(OKM)</h5>
+										<div class="overlay">
+											<div class="text"><a href="#" class="btn btn-yellow">Read More</a></div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="productItem-holder row">
+								<div class="col-lg-3 col-md-6">						
+									<div class="sample wow fadeInUp">
+										<img src="assets/images/8.jpg" alt="Avatar" class="img-thumbnail">
+										<h5 class="product-title">Butterfly Valve(OKM)</h5>
+										<div class="overlay">
+											<div class="text"><a href="#" class="btn btn-yellow">Read More</a></div>
+										</div>
+									</div>
+								</div>
+								<div class="col-lg-3 col-md-6">						
+									<div class="sample wow fadeInUp">
+										<img src="assets/images/8.jpg" alt="Avatar" class="img-thumbnail">
+										<h5 class="product-title">Butterfly Valve(OKM)</h5>
+										<div class="overlay">
+											<div class="text"><a href="#" class="btn btn-yellow">Read More</a></div>
+										</div>
+									</div>
+								</div>
+								<div class="col-lg-3 col-md-6">						
+									<div class="sample wow fadeInUp">
+										<img src="assets/images/8.jpg" alt="Avatar" class="img-thumbnail">
+										<h5 class="product-title">Butterfly Valve(OKM)</h5>
+										<div class="overlay">
+											<div class="text"><a href="#" class="btn btn-yellow">Read More</a></div>
+										</div>
+									</div>
+								</div>
+								<div class="col-lg-3 col-md-6">						
+									<div class="sample wow fadeInUp">
+										<img src="assets/images/8.jpg" alt="Avatar" class="img-thumbnail">
+										<h5 class="product-title">Butterfly Valve(OKM)</h5>
+										<div class="overlay">
+											<div class="text"><a href="#" class="btn btn-yellow">Read More</a></div>
+										</div>
+									</div>
+								</div>
+							</div>
+					</div> <!-- end of joints pane -->
+					<div class="tab-pane fade" id="pills-exchanger" role="tabpanel" aria-labelledby="pills-exchanger-tab">
+						<div class="productItem-holder row">
+								<div class="col-lg-3 col-md-6">						
+									<div class="sample wow fadeInUp">
+										<img src="assets/images/8.jpg" alt="Avatar" class="img-thumbnail">
+										<h5 class="product-title">Butterfly Valve(OKM)</h5>
+										<div class="overlay">
+											<div class="text"><a href="#" class="btn btn-yellow">Read More</a></div>
+										</div>
+									</div>
+								</div>
+								<div class="col-lg-3 col-md-6">						
+									<div class="sample wow fadeInUp">
+										<img src="assets/images/8.jpg" alt="Avatar" class="img-thumbnail">
+										<h5 class="product-title">Butterfly Valve(OKM)</h5>
+										<div class="overlay">
+											<div class="text"><a href="#" class="btn btn-yellow">Read More</a></div>
+										</div>
+									</div>
+								</div>
+								<div class="col-lg-3 col-md-6">						
+									<div class="sample wow fadeInUp">
+										<img src="assets/images/8.jpg" alt="Avatar" class="img-thumbnail">
+										<h5 class="product-title">Butterfly Valve(OKM)</h5>
+										<div class="overlay">
+											<div class="text"><a href="#" class="btn btn-yellow">Read More</a></div>
+										</div>
+									</div>
+								</div>
+								<div class="col-lg-3 col-md-6">						
+									<div class="sample wow fadeInUp">
+										<img src="assets/images/8.jpg" alt="Avatar" class="img-thumbnail">
+										<h5 class="product-title">Butterfly Valve(OKM)</h5>
+										<div class="overlay">
+											<div class="text"><a href="#" class="btn btn-yellow">Read More</a></div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="productItem-holder row">
+								<div class="col-lg-3 col-md-6">						
+									<div class="sample wow fadeInUp">
+										<img src="assets/images/8.jpg" alt="Avatar" class="img-thumbnail">
+										<h5 class="product-title">Butterfly Valve(OKM)</h5>
+										<div class="overlay">
+											<div class="text"><a href="#" class="btn btn-yellow">Read More</a></div>
+										</div>
+									</div>
+								</div>
+								<div class="col-lg-3 col-md-6">						
+									<div class="sample wow fadeInUp">
+										<img src="assets/images/8.jpg" alt="Avatar" class="img-thumbnail">
+										<h5 class="product-title">Butterfly Valve(OKM)</h5>
+										<div class="overlay">
+											<div class="text"><a href="#" class="btn btn-yellow">Read More</a></div>
+										</div>
+									</div>
+								</div>
+								<div class="col-lg-3 col-md-6">						
+									<div class="sample wow fadeInUp">
+										<img src="assets/images/8.jpg" alt="Avatar" class="img-thumbnail">
+										<h5 class="product-title">Butterfly Valve(OKM)</h5>
+										<div class="overlay">
+											<div class="text"><a href="#" class="btn btn-yellow">Read More</a></div>
+										</div>
+									</div>
+								</div>
+								<div class="col-lg-3 col-md-6">						
+									<div class="sample wow fadeInUp">
+										<img src="assets/images/8.jpg" alt="Avatar" class="img-thumbnail">
+										<h5 class="product-title">Butterfly Valve(OKM)</h5>
+										<div class="overlay">
+											<div class="text"><a href="#" class="btn btn-yellow">Read More</a></div>
+										</div>
+									</div>
+								</div>
+							</div>
+					</div> <!-- end of exchanger pane -->
+					<div class="tab-pane fade" id="pills-cooling" role="tabpanel" aria-labelledby="pills-cooling-tab">
+						<div class="productItem-holder row">
+								<div class="col-lg-3 col-md-6">						
+									<div class="sample wow fadeInUp">
+										<img src="assets/images/8.jpg" alt="Avatar" class="img-thumbnail">
+										<h5 class="product-title">Butterfly Valve(OKM)</h5>
+										<div class="overlay">
+											<div class="text"><a href="#" class="btn btn-yellow">Read More</a></div>
+										</div>
+									</div>
+								</div>
+								<div class="col-lg-3 col-md-6">						
+									<div class="sample wow fadeInUp">
+										<img src="assets/images/8.jpg" alt="Avatar" class="img-thumbnail">
+										<h5 class="product-title">Butterfly Valve(OKM)</h5>
+										<div class="overlay">
+											<div class="text"><a href="#" class="btn btn-yellow">Read More</a></div>
+										</div>
+									</div>
+								</div>
+								<div class="col-lg-3 col-md-6">						
+									<div class="sample wow fadeInUp">
+										<img src="assets/images/8.jpg" alt="Avatar" class="img-thumbnail">
+										<h5 class="product-title">Butterfly Valve(OKM)</h5>
+										<div class="overlay">
+											<div class="text"><a href="#" class="btn btn-yellow">Read More</a></div>
+										</div>
+									</div>
+								</div>
+								<div class="col-lg-3 col-md-6">						
+									<div class="sample wow fadeInUp">
+										<img src="assets/images/8.jpg" alt="Avatar" class="img-thumbnail">
+										<h5 class="product-title">Butterfly Valve(OKM)</h5>
+										<div class="overlay">
+											<div class="text"><a href="#" class="btn btn-yellow">Read More</a></div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="productItem-holder row">
+								<div class="col-lg-3 col-md-6">						
+									<div class="sample wow fadeInUp">
+										<img src="assets/images/8.jpg" alt="Avatar" class="img-thumbnail">
+										<h5 class="product-title">Butterfly Valve(OKM)</h5>
+										<div class="overlay">
+											<div class="text"><a href="#" class="btn btn-yellow">Read More</a></div>
+										</div>
+									</div>
+								</div>
+								<div class="col-lg-3 col-md-6">						
+									<div class="sample wow fadeInUp">
+										<img src="assets/images/8.jpg" alt="Avatar" class="img-thumbnail">
+										<h5 class="product-title">Butterfly Valve(OKM)</h5>
+										<div class="overlay">
+											<div class="text"><a href="#" class="btn btn-yellow">Read More</a></div>
+										</div>
+									</div>
+								</div>
+								<div class="col-lg-3 col-md-6">						
+									<div class="sample wow fadeInUp">
+										<img src="assets/images/8.jpg" alt="Avatar" class="img-thumbnail">
+										<h5 class="product-title">Butterfly Valve(OKM)</h5>
+										<div class="overlay">
+											<div class="text"><a href="#" class="btn btn-yellow">Read More</a></div>
+										</div>
+									</div>
+								</div>
+								<div class="col-lg-3 col-md-6">						
+									<div class="sample wow fadeInUp">
+										<img src="assets/images/8.jpg" alt="Avatar" class="img-thumbnail">
+										<h5 class="product-title">Butterfly Valve(OKM)</h5>
+										<div class="overlay">
+											<div class="text"><a href="#" class="btn btn-yellow">Read More</a></div>
+										</div>
+									</div>
+								</div>
+							</div>
+					</div> <!-- end of cooling pane -->
+					<div class="tab-pane fade" id="pills-gauges" role="tabpanel" aria-labelledby="pills-gauges-tab">
+						<div class="productItem-holder row">
+								<div class="col-lg-3 col-md-6">						
+									<div class="sample wow fadeInUp">
+										<img src="assets/images/8.jpg" alt="Avatar" class="img-thumbnail">
+										<h5 class="product-title">Butterfly Valve(OKM)</h5>
+										<div class="overlay">
+											<div class="text"><a href="#" class="btn btn-yellow">Read More</a></div>
+										</div>
+									</div>
+								</div>
+								<div class="col-lg-3 col-md-6">						
+									<div class="sample wow fadeInUp">
+										<img src="assets/images/8.jpg" alt="Avatar" class="img-thumbnail">
+										<h5 class="product-title">Butterfly Valve(OKM)</h5>
+										<div class="overlay">
+											<div class="text"><a href="#" class="btn btn-yellow">Read More</a></div>
+										</div>
+									</div>
+								</div>
+								<div class="col-lg-3 col-md-6">						
+									<div class="sample wow fadeInUp">
+										<img src="assets/images/8.jpg" alt="Avatar" class="img-thumbnail">
+										<h5 class="product-title">Butterfly Valve(OKM)</h5>
+										<div class="overlay">
+											<div class="text"><a href="#" class="btn btn-yellow">Read More</a></div>
+										</div>
+									</div>
+								</div>
+								<div class="col-lg-3 col-md-6">						
+									<div class="sample wow fadeInUp">
+										<img src="assets/images/8.jpg" alt="Avatar" class="img-thumbnail">
+										<h5 class="product-title">Butterfly Valve(OKM)</h5>
+										<div class="overlay">
+											<div class="text"><a href="#" class="btn btn-yellow">Read More</a></div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="productItem-holder row">
+								<div class="col-lg-3 col-md-6">						
+									<div class="sample wow fadeInUp">
+										<img src="assets/images/8.jpg" alt="Avatar" class="img-thumbnail">
+										<h5 class="product-title">Butterfly Valve(OKM)</h5>
+										<div class="overlay">
+											<div class="text"><a href="#" class="btn btn-yellow">Read More</a></div>
+										</div>
+									</div>
+								</div>
+								<div class="col-lg-3 col-md-6">						
+									<div class="sample wow fadeInUp">
+										<img src="assets/images/8.jpg" alt="Avatar" class="img-thumbnail">
+										<h5 class="product-title">Butterfly Valve(OKM)</h5>
+										<div class="overlay">
+											<div class="text"><a href="#" class="btn btn-yellow">Read More</a></div>
+										</div>
+									</div>
+								</div>
+								<div class="col-lg-3 col-md-6">						
+									<div class="sample wow fadeInUp">
+										<img src="assets/images/8.jpg" alt="Avatar" class="img-thumbnail">
+										<h5 class="product-title">Butterfly Valve(OKM)</h5>
+										<div class="overlay">
+											<div class="text"><a href="#" class="btn btn-yellow">Read More</a></div>
+										</div>
+									</div>
+								</div>
+								<div class="col-lg-3 col-md-6">						
+									<div class="sample wow fadeInUp">
+										<img src="assets/images/8.jpg" alt="Avatar" class="img-thumbnail">
+										<h5 class="product-title">Butterfly Valve(OKM)</h5>
+										<div class="overlay">
+											<div class="text"><a href="#" class="btn btn-yellow">Read More</a></div>
+										</div>
+									</div>
+								</div>
+							</div>
+					</div> <!-- end of gauges pane -->
+					<div class="tab-pane fade" id="pills-pumps" role="tabpanel" aria-labelledby="pills-pumps-tab">
+						<div class="productItem-holder row">
+								<div class="col-lg-3 col-md-6">						
+									<div class="sample wow fadeInUp">
+										<img src="assets/images/8.jpg" alt="Avatar" class="img-thumbnail">
+										<h5 class="product-title">Butterfly Valve(OKM)</h5>
+										<div class="overlay">
+											<div class="text"><a href="#" class="btn btn-yellow">Read More</a></div>
+										</div>
+									</div>
+								</div>
+								<div class="col-lg-3 col-md-6">						
+									<div class="sample wow fadeInUp">
+										<img src="assets/images/8.jpg" alt="Avatar" class="img-thumbnail">
+										<h5 class="product-title">Butterfly Valve(OKM)</h5>
+										<div class="overlay">
+											<div class="text"><a href="#" class="btn btn-yellow">Read More</a></div>
+										</div>
+									</div>
+								</div>
+								<div class="col-lg-3 col-md-6">						
+									<div class="sample wow fadeInUp">
+										<img src="assets/images/8.jpg" alt="Avatar" class="img-thumbnail">
+										<h5 class="product-title">Butterfly Valve(OKM)</h5>
+										<div class="overlay">
+											<div class="text"><a href="#" class="btn btn-yellow">Read More</a></div>
+										</div>
+									</div>
+								</div>
+								<div class="col-lg-3 col-md-6">						
+									<div class="sample wow fadeInUp">
+										<img src="assets/images/8.jpg" alt="Avatar" class="img-thumbnail">
+										<h5 class="product-title">Butterfly Valve(OKM)</h5>
+										<div class="overlay">
+											<div class="text"><a href="#" class="btn btn-yellow">Read More</a></div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="productItem-holder row">
+								<div class="col-lg-3 col-md-6">						
+									<div class="sample wow fadeInUp">
+										<img src="assets/images/8.jpg" alt="Avatar" class="img-thumbnail">
+										<h5 class="product-title">Butterfly Valve(OKM)</h5>
+										<div class="overlay">
+											<div class="text"><a href="#" class="btn btn-yellow">Read More</a></div>
+										</div>
+									</div>
+								</div>
+								<div class="col-lg-3 col-md-6">						
+									<div class="sample wow fadeInUp">
+										<img src="assets/images/8.jpg" alt="Avatar" class="img-thumbnail">
+										<h5 class="product-title">Butterfly Valve(OKM)</h5>
+										<div class="overlay">
+											<div class="text"><a href="#" class="btn btn-yellow">Read More</a></div>
+										</div>
+									</div>
+								</div>
+								<div class="col-lg-3 col-md-6">						
+									<div class="sample wow fadeInUp">
+										<img src="assets/images/8.jpg" alt="Avatar" class="img-thumbnail">
+										<h5 class="product-title">Butterfly Valve(OKM)</h5>
+										<div class="overlay">
+											<div class="text"><a href="#" class="btn btn-yellow">Read More</a></div>
+										</div>
+									</div>
+								</div>
+								<div class="col-lg-3 col-md-6">						
+									<div class="sample wow fadeInUp">
+										<img src="assets/images/8.jpg" alt="Avatar" class="img-thumbnail">
+										<h5 class="product-title">Butterfly Valve(OKM)</h5>
+										<div class="overlay">
+											<div class="text"><a href="#" class="btn btn-yellow">Read More</a></div>
+										</div>
+									</div>
+								</div>
+							</div>
+					</div> <!-- end of pumps pane -->
+					<div class="tab-pane fade" id="pills-treatment" role="tabpanel" aria-labelledby="pills-treatment-tab">
+						<div class="productItem-holder row">
+								<div class="col-lg-3 col-md-6">						
+									<div class="sample wow fadeInUp">
+										<img src="assets/images/8.jpg" alt="Avatar" class="img-thumbnail">
+										<h5 class="product-title">Butterfly Valve(OKM)</h5>
+										<div class="overlay">
+											<div class="text"><a href="#" class="btn btn-yellow">Read More</a></div>
+										</div>
+									</div>
+								</div>
+								<div class="col-lg-3 col-md-6">						
+									<div class="sample wow fadeInUp">
+										<img src="assets/images/8.jpg" alt="Avatar" class="img-thumbnail">
+										<h5 class="product-title">Butterfly Valve(OKM)</h5>
+										<div class="overlay">
+											<div class="text"><a href="#" class="btn btn-yellow">Read More</a></div>
+										</div>
+									</div>
+								</div>
+								<div class="col-lg-3 col-md-6">						
+									<div class="sample wow fadeInUp">
+										<img src="assets/images/8.jpg" alt="Avatar" class="img-thumbnail">
+										<h5 class="product-title">Butterfly Valve(OKM)</h5>
+										<div class="overlay">
+											<div class="text"><a href="#" class="btn btn-yellow">Read More</a></div>
+										</div>
+									</div>
+								</div>
+								<div class="col-lg-3 col-md-6">						
+									<div class="sample wow fadeInUp">
+										<img src="assets/images/8.jpg" alt="Avatar" class="img-thumbnail">
+										<h5 class="product-title">Butterfly Valve(OKM)</h5>
+										<div class="overlay">
+											<div class="text"><a href="#" class="btn btn-yellow">Read More</a></div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="productItem-holder row">
+								<div class="col-lg-3 col-md-6">						
+									<div class="sample wow fadeInUp">
+										<img src="assets/images/8.jpg" alt="Avatar" class="img-thumbnail">
+										<h5 class="product-title">Butterfly Valve(OKM)</h5>
+										<div class="overlay">
+											<div class="text"><a href="#" class="btn btn-yellow">Read More</a></div>
+										</div>
+									</div>
+								</div>
+								<div class="col-lg-3 col-md-6">						
+									<div class="sample wow fadeInUp">
+										<img src="assets/images/8.jpg" alt="Avatar" class="img-thumbnail">
+										<h5 class="product-title">Butterfly Valve(OKM)</h5>
+										<div class="overlay">
+											<div class="text"><a href="#" class="btn btn-yellow">Read More</a></div>
+										</div>
+									</div>
+								</div>
+								<div class="col-lg-3 col-md-6">						
+									<div class="sample wow fadeInUp">
+										<img src="assets/images/8.jpg" alt="Avatar" class="img-thumbnail">
+										<h5 class="product-title">Butterfly Valve(OKM)</h5>
+										<div class="overlay">
+											<div class="text"><a href="#" class="btn btn-yellow">Read More</a></div>
+										</div>
+									</div>
+								</div>
+								<div class="col-lg-3 col-md-6">						
+									<div class="sample wow fadeInUp">
+										<img src="assets/images/8.jpg" alt="Avatar" class="img-thumbnail">
+										<h5 class="product-title">Butterfly Valve(OKM)</h5>
+										<div class="overlay">
+											<div class="text"><a href="#" class="btn btn-yellow">Read More</a></div>
+										</div>
+									</div>
+								</div>
+							</div>
+					</div> <!-- end of treatment pane -->
+				</div> <!-- end of  tabpane -->
 
-			<div class="col-md-1"></div>
-			<div class="col-md-2">
-				<div class="sample">
-				  <h5 class="text-center">Valves(Yamato)</h5>
-				  <img src="assets/images/8.jpg" alt="Avatar" class="image">
-				  <div class="overlay">
-				    <div class="text"><a href="#">Read more</a></div>
-				  </div>
-				</div>
-			</div>
 
-			<div class="col-md-1"></div>
-			<div class="col-md-2">
-				<div class="sample">
-				  <h5 class="text-center">Water Treatment for Scale and Rust(Calfa Bas)</h5>
-				  <img src="assets/images/8.jpg" alt="Avatar" class="image">
-				  <div class="overlay">
-				    <div class="text"><a href="#">Read more</a></div>
-				  </div>
-				</div>
 			</div>
 		</div>
-
-	</div>
-
-	<div class="container-fluid about-page">
-		<div class="block" style="margin:80px;">
+		<div class="about-page" id="about">
 			<div class="row">
 				<div class="col-md-6 mission-holder">
-					<h2 class="page-subtitle">JMC Mission</h2>
-					<blockquote class="text-quote"><strong>"</strong>We provide reliable products with value for money to our clients. We deliver products and services of the highest possible value to our clients with reliability.<strong>"</strong></blockquote>
+					<h2 class="page-subtitle">About</h2>
+					<blockquote class="text-quote">We are mainly a marketing and sales support team. Our mission is to be a company with a reputation for eligibility, quality and integrity. We envision to be the leading company engaged in delivering quality service and outstanding value to both client and employee.</blockquote>
 				</div>
-				<div class="col-md-6 policy-holder">
-					<h2 class="page-subtitle">Company Policy</h2>
-					<blockquote class="text-quote"><strong>"</strong>Always be sincere to our clients and suppliers in order to build a long-term and reliable relationship.<strong>"</strong></blockquote>
+				<div class="col-md-6 policy-holder">				
+					<div class="owl-carousel owl-theme" id="mission_policy">
+						<div class="item">
+							<h2 class="page-subtitle">JMC Mission</h2>
+							<blockquote class="text-quote"><strong>"</strong>We provide reliable products with value for money to our clients. We deliver products and services of the highest possible value to our clients with reliability.<strong>"</strong></blockquote>
+						</div>
+						<div class="item">
+							<h2 class="page-subtitle">Company Policy</h2>
+							<blockquote class="text-quote"><strong>"</strong>Always be sincere to our clients and suppliers in order to build a long-term and reliable relationship.<strong>"</strong></blockquote>
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>
-		<div class="block team-holder">
+		<div class="team-holder" id="team">
 			<div class="container">
-				<h2 class="page-title">Our Team</h2>
-				<div class="row block top-people">
-					<div class="col-md-3"><img src="assets/images/employees/Nakagane.png" class="img-responsive img-avatar"></div>
-					<div class="col-md-9 item-center">
-						<h4 class="employee-name">Ryosuke Nakagane</h4>
-						<label class="employee-title">Director</label>
-						<p class="employee-desc">Mr. Nakagane is a director and a stock holder of Jmaterials Corp.He has business experience in Philippine for more than 10 years. Currently, he also serves as the President of Tokyo Grand Renovation (TGR) which isan affiliate company of Jmaterials Corp.</p>
-					</div>
-				</div>				
+				<h2 class="page-title">Our <b>Team</b></h2>
 				<div class="row block">
-					<div class="col-md-3 top-people"><img src="assets/images/employees/Tamura.png" class="img-responsive img-avatar"></div>
-					<div class="col-md-9 item-center">
-						<h4 class="employee-name">Naoki Tamura</h4>
-						<label class="employee-title">General Manager</label>
-						<p class="employee-desc">Mr. Tamura has been in the sales industry for more than 15 years locally and internationally making him well-suited to be the General Manager of the company. He believes that in order to succeed a person should always be gentle and smart with his or her decisions. He also believes that smile can do magic. Mr. Tamura plays ice hockey and enjoys travelling. Both ice hockey and travelling are his stress reliever and relaxation. </p>
-					</div>
-				</div>
-
-				<div class="row block">
-					<div class="col-md-6 col-sm-6">
-						<div class="row">
-							<div class="col-md-3"><img src="assets/images/employees/Zapata.png" class="img-responsive"></div>
-							<div class="col-md-9">
-								<h4 class="employee-name">Jeffrey John Zapata</h4>
-								<label class="employee-title">Customer Service Manager</label>
-								<p class="employee-desc">Jay brings with him more than 20 years experience in the fields of selling and trading with clientele both local and international. His expertise and vast experience  has helped position Jmaterials Corporation as one of the contenders in their field.  He is also a good example to his colleagues and is seen as a mentor and an adviser.  But more than his dedication and resilience at work, Jay is a family man and, he makes sure to spend quality time with his family as well as time for himself.</p>
-							</div>
+					<div class="col-md-6">
+						<div class="top-member">
+							<img src="assets/images/employees/Nakagane.png" class="img-responsive img-avatar">
+							<h4 class="employee-name">Ryosuke Nakagane</h4>
+							<label class="employee-title">Director</label>						
+							<p class="employee-desc">Mr. Nakagane is a director and a stock holder of Jmaterials Corp.He has business experience in Philippine for more than 10 years. Currently, he also serves as the President of Tokyo Grand Renovation (TGR) which isan affiliate company of Jmaterials Corp.</p>
 						</div>
 					</div>
-					<div class="col-md-6 col-sm-6">
-						<div class="row">
-							<div class="col-md-3"><img src="assets/images/employees/Ramos.png" class="img-responsive"></div>
-							<div class="col-md-9">
-								<h4 class="employee-name">Shirley Inductivo Ramos</h4>
-								<label class="employee-title">Accounting Manager</label>
-								<p class="employee-desc">Shirley has more than 10 years of experience in providing professional accounting service to private businesses. She has been with Jmaterials since 2013 and oversees the day-to-day operations of company’s accounting department.She is responsible also in the preparation of all financial reports and preparation of tax returns and regulatory filings. She believes that the backbone of success is “hard work, determination, good planning, and perseverance. “ She also admires women who are mothers  who balance family and work.</p>
-							</div>
+					<div class="col-md-6">
+						<div class="top-member">
+							<img src="assets/images/employees/Tamura.png" class="img-responsive img-avatar">
+							<h4 class="employee-name">Naoki Tamura</h4>
+							<label class="employee-title">General Manager</label>						
+							<p class="employee-desc">Mr. Tamura has been in the sales industry for more than 15 years locally and internationally making him well-suited to be the General Manager of the company. He believes that in order to succeed a person should always be gentle and smart with his or her decisions. He also believes that smile can do magic. Mr. Tamura plays ice hockey and enjoys travelling. Both ice hockey and travelling are his stress reliever and relaxation. </p>
 						</div>
 					</div>
 				</div>
 				<div class="row block">
+					<div class="row">
+						<div class="col-md-4">
+							<div class="row">
+								<div class="col-lg-4 col-md-12"><img src="assets/images/employees/Zapata.png" class="img-thumbnail img-avatar"></div>
+								<div class="col-lg-8 col-md-12 member">
+									<h5 class="employee-name">Jeffrey John Zapata</h5>
+									<label class="employee-title">Customer Service Manager</label>
+								</div>
+							</div>						
+							<p class="employee-desc">Jay brings with him more than 20 years experience in the fields of selling and trading with clientele both local and international. His expertise and vast experience  has helped position Jmaterials Corporation as one of the contenders in their field.  He is also a good example to his colleagues and is seen as a mentor and an adviser.  But more than his dedication and resilience at work, Jay is a family man and, he makes sure to spend quality time with his family as well as time for himself.</p>
+						</div>
+						<div class="col-md-4">
+							<div class="row">
+								<div class="col-lg-4 col-md-12"><img src="assets/images/employees/Ramos.png" class="img-thumbnail img-avatar"></div>
+								<div class="col-lg-8 col-md-12 member">
+									<h5 class="employee-name">Shirley Inductivo Ramos</h5>
+									<label class="employee-title">Accounting Manager</label>
+								</div>
+							</div>	
+							<p class="employee-desc">Shirley has more than 10 years of experience in providing professional accounting service to private businesses. She has been with Jmaterials since 2013 and oversees the day-to-day operations of company’s accounting department.She is responsible also in the preparation of all financial reports and preparation of tax returns and regulatory filings. She believes that the backbone of success is “hard work, determination, good planning, and perseverance. “ She also admires women who are mothers  who balance family and work.</p>
+						</div>
+						<div class="col-md-4">
+							<div class="row">
+								<div class="col-lg-4 col-md-12"><img src="assets/images/employees/Ramos.png" class="img-thumbnail img-avatar"></div>
+								<div class="col-lg-8 col-md-12 member">
+									<h5 class="employee-name">Shirley Inductivo Ramos</h5>
+									<label class="employee-title">Accounting Manager</label>
+								</div>
+							</div>	
+							<p class="employee-desc">Shirley has more than 10 years of experience in providing professional accounting service to private businesses. She has been with Jmaterials since 2013 and oversees the day-to-day operations of company’s accounting department.She is responsible also in the preparation of all financial reports and preparation of tax returns and regulatory filings. She believes that the backbone of success is “hard work, determination, good planning, and perseverance. “ She also admires women who are mothers  who balance family and work.</p>
+						</div>
+					</div>
+				</div>
+				<!-- <div class="row block">
 					<div class="col-md-6 col-sm-6">
 						<div class="row">
 							<div class="col-md-3"><img src="assets/images/employees/Yacat.png" class="img-responsive"></div>
@@ -289,120 +879,137 @@
 							</div>
 						</div>
 					</div>
+				</div> -->
+			</div>
+		</div>
+		<div class="partners-page" id="partners">
+			<div class="container">
+				<h2 class="page-title text-invert">Our <b>Partners</b></h2>
+				<div class="owl-carousel owl-theme" id="partnersList">
+					<div class="item"><img class="wow zoomIn" src="assets/images/partners_edited/01-logo.png"></div>
+					<div class="item"><img class="wow zoomIn" src="assets/images/partners_edited/02-logo.png"></div>
+					<div class="item"><img class="wow zoomIn" src="assets/images/partners_edited/03-logo.png"></div>
+					<div class="item"><img class="wow zoomIn" src="assets/images/partners_edited/04-logo.png"></div>
+					<div class="item"><img class="wow zoomIn" src="assets/images/partners_edited/05-logo.png"></div>
+					<div class="item"><img class="wow zoomIn" src="assets/images/partners_edited/06-logo.png"></div>
+					<div class="item"><img class="wow zoomIn" src="assets/images/partners_edited/07-logo.png"></div>
+					<div class="item"><img class="wow zoomIn" src="assets/images/partners_edited/08-logo.png"></div>
 				</div>
 			</div>
 		</div>
 	</div>
 
-	<div class="container-fluid partners-page">
-		<div class="container">
-			<h2 class="page-title text-invert">Our Partners</h2>
-			<div class="owl-carousel owl-theme">
-				<div class="item"><img src="assets/images/partners_edited/01-logo.png"></div>
-				<div class="item"><img src="assets/images/partners_edited/02-logo.png"></div>
-				<div class="item"><img src="assets/images/partners_edited/03-logo.png"></div>
-				<div class="item"><img src="assets/images/partners_edited/04-logo.png"></div>
-				<div class="item"><img src="assets/images/partners_edited/05-logo.png"></div>
-				<div class="item"><img src="assets/images/partners_edited/06-logo.png"></div>
-				<div class="item"><img src="assets/images/partners_edited/07-logo.png"></div>
-				<div class="item"><img src="assets/images/partners_edited/08-logo.png"></div>
+	<div class="footer-container" id="contact">
+		<div class="container-fluid">
+			<ul class="multi-list-footer-links">
+				<li>
+					<ul class="list-footer-links">
+						<li><a href="#"><img src="assets/images/jmc_logo_v2_inverted.png" class="img-responsive image-logo-footer"></a></li>
+					</ul>
+				</li>
+				<li>
+					<ul class="list-footer-links">
+						<li><a href="#">About</a></li>
+						<li><a href="#">GC</a></li>
+						<li><a href="#">Meeting</a></li>
+						<li><a href="#">News</a></li>
+						<li><a href="#">Product Brochures</a></li>
+						<li><a href="#">Search Page</a></li>
+						<li><a href="#">Weekends</a></li>
+					</ul>
+				</li>
+				<li>
+					<ul class="list-footer-links">
+						<li><a href="#">Blog</a></li>
+						<li><a href="#">GC Team</a></li>
+						<li><a href="#">Meeting</a></li>
+						<li><a href="#">Meeting with Contractor</a></li>
+						<li><a href="#">NIght PM AC</a></li>
+						<li><a href="#">Quote</a></li>
+						<li><a href="#">Services</a></li>
+					</ul>
+				</li>
+				<li>
+					<ul class="list-footer-links">
+						<li><a href="#">Contacts</a></li>
+						<li><a href="#">Home</a></li>
+						<li><a href="#">Move Forward</a></li>
+						<li><a href="#">Partners</a></li>
+						<li><a href="#">SAYINS</a></li>
+						<li><a href="#">Site Map</a></li>
+					</ul>
+				</li>
+				<li>
+					<ul class="list-footer-links">
+						<li>
+							<iframe frameborder="0" height="100%" marginheight="0" marginwidth="0" scrolling="no" src="http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Room+400+VGP+Center,+6772+Ayala+Avenue+Makati+City,+Philippines+1226&amp;aq=&amp;sll=37.0625,-95.677068&amp;sspn=40.681389,60.820313&amp;ie=UTF8&amp;hq=&amp;hnear=VGP+Center,+6772+Ayala+Ave,+Lungsod+ng+Makati,+Metro+Manila+1226,+Philippines&amp;t=m&amp;ll=14.556959,121.020198&amp;spn=0.003635,0.00456&amp;z=17&amp;output=embed" width="100%"></iframe>
+						</li>
+						<li>
+							<a href="#">www.jmaterials.com</a>
+							<p>Room 400 VGP Center, 6772
+								Ayala Avenue Makati City, Philippines 1226</p>
+
+
+							</li>	
+							<li>
+								<a href="mailto:cs@jmaterials.com">Email: cs@jmaterials.com</a>
+								<p>Tel: [632] 846 7371
+									Fax: [632] 856 7764</p>
+								</li>
+							</ul>
+						</li>
+					</ul>
+				</li>
+			</ul>
+			<hr class="seprator-light-01">
+			<div class="copyright-container">
+				<p>2013 (C) Copyright JM Materials Corp. | All Rights Reserved</p>
+				<p>Room 400 VGP Center, 6772 Ayala Avenue, Makati City, Philippines 1226.</p> 
 			</div>
 		</div>
-	</div>
-
-	<div class="footer-container">
-	  <div class="container-fluid">
-	    <ul class="multi-list-footer-links">
-	      <li>
-	        <ul class="list-footer-links">
-	          <li><a href="#"><img src="assets/images/jmc_logo_v2_inverted.png" class="img-responsive image-logo-footer"></a></li>
-	        </ul>
-	      </li>
-	      <li>
-	        <ul class="list-footer-links">
-	          <li><a href="#">About</a></li>
-	          <li><a href="#">GC</a></li>
-	          <li><a href="#">Meeting</a></li>
-	          <li><a href="#">News</a></li>
-	          <li><a href="#">Product Brochures</a></li>
-	          <li><a href="#">Search Page</a></li>
-	          <li><a href="#">Weekends</a></li>
-	        </ul>
-	      </li>
-	      <li>
-	        <ul class="list-footer-links">
-	          <li><a href="#">Blog</a></li>
-	          <li><a href="#">GC Team</a></li>
-	          <li><a href="#">Meeting</a></li>
-	          <li><a href="#">Meeting with Contractor</a></li>
-	          <li><a href="#">NIght PM AC</a></li>
-	          <li><a href="#">Quote</a></li>
-	          <li><a href="#">Services</a></li>
-	        </ul>
-	      </li>
-	      <li>
-	        <ul class="list-footer-links">
-	          <li><a href="#">Contacts</a></li>
-	          <li><a href="#">Home</a></li>
-	          <li><a href="#">Move Forward</a></li>
-	          <li><a href="#">Partners</a></li>
-	          <li><a href="#">SAYINS</a></li>
-	          <li><a href="#">Site Map</a></li>
-	        </ul>
-	      </li>
-	      <li>
-	        <ul class="list-footer-links">
-	        <li>
-	        	<iframe frameborder="0" height="100%" marginheight="0" marginwidth="0" scrolling="no" src="http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Room+400+VGP+Center,+6772+Ayala+Avenue+Makati+City,+Philippines+1226&amp;aq=&amp;sll=37.0625,-95.677068&amp;sspn=40.681389,60.820313&amp;ie=UTF8&amp;hq=&amp;hnear=VGP+Center,+6772+Ayala+Ave,+Lungsod+ng+Makati,+Metro+Manila+1226,+Philippines&amp;t=m&amp;ll=14.556959,121.020198&amp;spn=0.003635,0.00456&amp;z=17&amp;output=embed" width="100%"></iframe>
-	       </li>
-	       <li>
-					<a href="#">www.jmaterials.com</a>
-					<p>Room 400 VGP Center, 6772
-					Ayala Avenue Makati City, Philippines 1226</p>
-					
-				
-		   </li>	
-		   <li>
-		   		<a href="mailto:cs@jmaterials.com">Email: cs@jmaterials.com</a>
-					<p>Tel: [632] 846 7371
-					Fax: [632] 856 7764</p>
-			</li>
-	      </ul>
-	      </li>
-	    </ul>
-	    
-	    <hr class="seprator-light-01">
-	    <div class="copyright-container">
-	    <p>2013 (C) Copyright JM Materials Corp. | All Rights Reserved</p>
-	    <p>Room 400 VGP Center, 6772 Ayala Avenue, Makati City, Philippines 1226.</p> 
-	    </div>
-	  </div>
 	</div>
 	<script src="assets/js/jquery-3.3.1.min.js"></script>
 	<script src="assets/js/popper.min.js"></script>
 	<script src="assets/js/bootstrap.min.js"></script>
-	<script src="assets/js/myjs.js"></script>
+	<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script> -->
+	<script src="assets/js/myjs.js"></script>	
 	<script src="assets/js/jquery.min.js"></script>
 	<script src="assets/js/owl.carousel.js"></script>
+	<script src="assets/js/dist/wow.min.js"></script>
 	<script type="text/javascript">
-		$('.owl-carousel').owlCarousel({
-		    loop:true,
-		    margin:10,
-		    autoplay:true,
-		    autoplayTimeout:1000,
-    		autoplayHoverPause:true,
-		    nav:true,   
-		    responsive:{
-		        0:{
-		            items:1
-		        },
-		        600:{
-		            items:3
-		        },
-		        1000:{
-		            items:5
-		        }
-		    }
+		$('#navy_scroll').scrollspy();
+	</script>
+	<script type="text/javascript">
+		new WOW().init();
+		$('#partnersList').owlCarousel({
+			loop:true,
+			margin:10,
+			autoplay:true,
+			autoplayTimeout:1000,
+			autoplayHoverPause:true,
+			nav:true,   
+			responsive:{
+				0:{
+					items:1
+				},
+				600:{
+					items:3
+				},
+				1000:{
+					items:5
+				}
+			}
+		});
+		$('#mission_policy').owlCarousel({
+			loop:true,
+			margin:10,
+			autoplay:true,
+			autoplayTimeout:3000,
+			autoplayHoverPause:true,
+			nav:true,
+			items:1
 		});
 	</script>
 </body>

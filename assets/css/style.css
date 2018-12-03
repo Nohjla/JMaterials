@@ -4,7 +4,7 @@
 	box-sizing: border-box;
 }
 body{
-	background-image: url(../images/bg-1.jpg);
+	background-image: url(../images/03-bg.jpg);
 	background-attachment: fixed;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -22,30 +22,26 @@ body{
 	background-color: rgba(255, 249, 229,0.0) !important;
 }
 .navbar-custom.scrolled{
-	background-color: #1a1d23 !important;
+	background-color: #343434 !important;
 }
 .nav-link{
 	color:#ffe51b !important;
 }
 /*sections*/
 .landing-page{
-	display: flex;
-	align-items: center;
 }
 
 .banner-text{
 	color: #e2f9fd;
-	font-size: 60px;
-	text-align: center;
-	margin-bottom: 15px;
-	padding: 15px 0;
+	font-size: 54px;
+	text-align: left;
 	font-family: 'Roboto Condensed', sans-serif;
 }
 .banner a{
 	display: block;
 }
 .banner-text > strong{
-	color: #0ae6ff;
+	color: #ffe51b;
 }
 .block{
 	margin-bottom: 15px;
@@ -63,22 +59,21 @@ body{
 .btn-holder{
 	width: 100%;
 	margin:15px auto;
-	text-align: center;
+	text-align: left;
 }
 
 .btn-form{
 	min-width:150px;
-	padding: 15px;
+	padding: 8px;
 }
 
 .btn-banner{
 	border-radius: 0;
-	text-transform: uppercase;
 	letter-spacing: 1px;
-	font-size: 24px;
-	color: #ffe51b !important;
-	background:transparent;
-	border: solid 3px rgba(255, 255, 255, 0.5);
+	font-size: 18px;
+	color: #ffffff !important;
+	background: #0e0e0e;
+	border: solid 1px rgba(255, 229, 27, 0.8);
 	font-family: 'Roboto Condensed', sans-serif;
 }
 .free-container{
@@ -176,7 +171,8 @@ body{
 	height:30px;
 }
 .landing-page{
-	height: 100vh;
+	min-height: 728px;
+	padding-top: 270px;
 }
 .bottom-landing-page{
 	height: 100%;
@@ -196,7 +192,7 @@ body{
 .product-page{
 	height: 100%;
 	background: rgba(255, 255, 255);
-	padding: 120px;
+	/* padding: 120px; */
 }
 
 .contact-page{
@@ -208,11 +204,7 @@ body{
 }
 
 /*landing page*/
-.landing-page .btnLink{
-/*	text-align: left;
-*/	font-size: 30px;
-	font-family: 'Roboto Condensed', sans-serif;
-}
+.landing-page .btnLink{text-align: left;font-size: 26px;font-family: 'Roboto Condensed', sans-serif;display: inline-block;color: #c0c0c0;text-transform: uppercase;text-shadow: 1px 1px 4px #000;}
 
 /*about*/
 
