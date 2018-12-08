@@ -1,0 +1,12 @@
+Item: Valve
+Brand: Yamato
+Japan Brand
+Japan and China Factory
+
+Types of valves available:
+Gate Valve
+Globe Valve
+Check Valve
+Ball Valve
+Y-Pattern Strainer
+-brass, bronze, cast iron

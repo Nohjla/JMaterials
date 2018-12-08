@@ -191,7 +191,7 @@ body{
 }
 .product-page{
 	height: 100%;
-	background: rgba(255, 255, 255);
+	background: rgba(255, 255, 255,0.9);
 	/* padding: 120px; */
 }
 
@@ -255,4 +255,20 @@ body{
 
 .item-center{
 	padding-top: 40px;
+}
+
+#test-image{
+	width: 400px;
+	height: 250px;
+	margin-bottom: 5px;
+}
+#test-image-2{
+	width: 600px;
+	height: 600px;
+	margin-bottom: 5px;
+}
+#test-image-3{
+	width: 150px;
+	height: 150px;
+	margin-bottom: 5px;
 }
