@@ -190,6 +190,7 @@ body{
   height: 100%;
   background: rgba(47, 59, 74, 0.8);
   padding: 40px;
+  margin-bottom: 0px !important;
 }
 /*.product-page{
   height: 100vh;
@@ -227,16 +228,6 @@ body{
 .employee-desc{
   font-size: 13px;
   font-style: italic;
-}
-
-.mission-holder{
-  padding: 80px;
-  background: #ffe98c;
-}
-
-.policy-holder{
-  padding: 80px;
-  background: rgb(255, 227, 111);
 }
 
 .team-holder{
@@ -292,4 +283,11 @@ body{
 }
 .marl{
   margin-left: 40px;
+}
+
+.blog-page{
+  height: 100%;
+  background: #ffffff;
+  margin-top: 0px !important;
+  padding: 30px;
 }

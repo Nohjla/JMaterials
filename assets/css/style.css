@@ -188,10 +188,11 @@ body{
 	height: 100%;
 	background: rgba(156, 79, 79, 0.3);
 	padding: 40px;
+	margin-bottom: 0px !important;
 }
 .product-page{
 	height: 100%;
-	background: rgba(255, 255, 255,0.9);
+	background: #ffffff;
 	/* padding: 120px; */
 }
 
@@ -237,7 +238,7 @@ body{
 }
 
 .team-holder{
-	background: #fff6d1;
+	/*background: #fff6d1;*/
 	padding: 40px;
 	height: 550px;
 }
@@ -271,4 +272,297 @@ body{
 	width: 150px;
 	height: 150px;
 	margin-bottom: 5px;
+}
+#test-image-4{
+	padding: 10px;
+	width: 500px;
+	height: 500px;
+	margin-bottom: 5px;
+}
+
+#blog-image {
+  vertical-align: middle;
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+.blog-image-content {
+  position: relative;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prevImage,
+.nextImage {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.nextImage {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prevImage:hover,
+.nextImage:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Container for image text */
+.caption-container {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+}
+
+.rowImage:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.columnImage {
+  float: left;
+  width: 11.11%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+
+#blog-image2 {
+  vertical-align: middle;
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+.blog-image-content2 {
+  position: relative;
+}
+
+/* Hide the images by default */
+.mySlides2 {
+  display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor2 {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prevImage2,
+.nextImage2 {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.nextImage2 {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prevImage2:hover,
+.nextImage2:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext2 {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Container for image text */
+.caption-container2 {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+}
+
+.rowImage2:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.columnImage2 {
+  float: left;
+  width: 10%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo2 {
+  opacity: 0.6;
+}
+
+.active2,
+.demo2:hover {
+  opacity: 1;
+}
+
+
+#blog-image3 {
+  vertical-align: middle;
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+.blog-image-content3 {
+  position: relative;
+}
+
+/* Hide the images by default */
+.mySlides3 {
+  display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor3 {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prevImage3,
+.nextImage3 {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.nextImage3 {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prevImage3:hover,
+.nextImage3:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext3 {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Container for image text */
+.caption-container3 {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+}
+
+.rowImage3:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.columnImage3 {
+  float: left;
+  width: 14.28%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo3 {
+  opacity: 0.6;
+}
+
+.active3,
+.demo3:hover {
+  opacity: 1;
+}
+
+#image-align{
+	height: 50px;
+}
+
+/*for responsive*/
+@media only screen and (max-width: 991px){
+	.mission-holder,.policy-holder{
+		padding: 40px;
+	}
+}
+@media only screen and (max-width: 767px){
+	.mission-holder,.policy-holder{
+		padding: 30px;
+		display: block;
+	}
+	.sample .img-fluid{
+		display: block;
+		margin: 0 auto;
+	}
+	.product-title {
+	    text-align: center;
+	}
 }
