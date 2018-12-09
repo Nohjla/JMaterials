@@ -287,6 +287,7 @@ body{
 /* Position the image container (needed to position the left and right arrows) */
 .blog-image-content {
   position: relative;
+  margin-bottom: 20px;
 }
 
 /* Hide the images by default */
@@ -375,6 +376,7 @@ body{
 /* Position the image container (needed to position the left and right arrows) */
 .blog-image-content2 {
   position: relative;
+  margin-bottom: 20px;
 }
 
 /* Hide the images by default */
@@ -463,6 +465,7 @@ body{
 /* Position the image container (needed to position the left and right arrows) */
 .blog-image-content3 {
   position: relative;
+  margin-bottom: 20px;
 }
 
 /* Hide the images by default */
@@ -558,11 +561,20 @@ body{
 		padding: 30px;
 		display: block;
 	}
+	.text-quote{
+		font-size: 12px;
+	}
 	.sample .img-fluid{
 		display: block;
 		margin: 0 auto;
 	}
 	.product-title {
 	    text-align: center;
+	}
+	#blog-title{
+    font-size: 20px;
+	}
+	.blog-sub-title{
+	font-size: 18px;	
 	}
 }

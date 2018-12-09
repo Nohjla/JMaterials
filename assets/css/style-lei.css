@@ -223,3 +223,9 @@ margin-bottom: 30px;
 		text-align: center!important;
 	}
 }
+
+@media only screen and (max-width: 767px){
+	.page-title {
+		font-size: 32px;
+	}
+}
