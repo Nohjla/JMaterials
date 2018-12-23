@@ -92,6 +92,8 @@ margin-bottom: 30px;
 }
 .owl-prev span,.owl-next span{
 	font-size:44px;
+
+}
 .team-holder{
 	height: auto;
 }
@@ -185,12 +187,26 @@ margin-bottom: 30px;
 	font-size:44px;
 }
 
+/*partners*/
+
+.round-corners{
+	border-radius: 4px;
+}
+.list-partners{
+	display: block;
+	width: 100%;
+}
+.list-partners li{
+	display: inline-block;
+	text-align: center;
+}
+
 /*new style*/
 .owl-dots> button{
 	background: transparent;
 	border:solid 1px #333;
 }
-@media screen and (max-width: 991px){
+
 	.product-page,
 	.team-holder,
 	about-page{

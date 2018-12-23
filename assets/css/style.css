@@ -10,6 +10,7 @@ body{
 	background-repeat: no-repeat;
 	background-size: cover;
 }
+
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700|Roboto+Condensed:400,700');
 .navbar-logo>img{
 	height: 30px;
@@ -581,4 +582,11 @@ body{
 .cwh{
 	width: 600px !important;
 	height: 200px;
+}
+.site-container > *{
+	text-align: center;
+	color: #eaeaea;
+	line-height: 1.5;
+	font-family:'Open Sans', sans-serif;
+	font-size: 34px;
 }
