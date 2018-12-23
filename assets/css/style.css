@@ -89,6 +89,9 @@ body{
 	padding: 15px;
 	font-family: 'Roboto Condensed', sans-serif;
 }
+.align{
+	text-align: center;
+}
 
 .page-subtitle {
 	font-weight: 700;
@@ -227,7 +230,11 @@ body{
 	font-size: 13px;
     font-style: italic;
 }
-
+.employee-desc:hover{
+	background-color: rgb(47, 59, 74);
+	color: white;
+	padding: 10px;
+}
 .mission-holder{
 	padding: 80px;
     background: #ffe98c;
@@ -588,5 +595,6 @@ body{
 	color: #eaeaea;
 	line-height: 1.5;
 	font-family:'Open Sans', sans-serif;
-	font-size: 34px;
+	font-size:34px;
+	margin-top: 30px;
 }
