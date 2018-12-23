@@ -598,3 +598,6 @@ body{
 	font-size:34px;
 	margin-top: 30px;
 }
+p a{
+	color: gray;
+}
